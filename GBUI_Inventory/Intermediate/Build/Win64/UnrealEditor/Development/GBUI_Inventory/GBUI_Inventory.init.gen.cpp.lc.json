@@ -1,0 +1,13 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\gbui_inventory\\gbui_inventory.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\gbui_inventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\development\\gbui_inventory\\definitions.gbui_inventory.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

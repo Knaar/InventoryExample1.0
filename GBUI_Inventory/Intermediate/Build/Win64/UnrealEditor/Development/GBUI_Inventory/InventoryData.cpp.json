@@ -1,0 +1,18 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unreal_5_projects\\gbui_inventory\\source\\gbui_inventory\\inventorydata.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\gbui_inventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\development\\gbui_inventory\\definitions.gbui_inventory.h",
+            "e:\\unreal_5_projects\\gbui_inventory\\source\\gbui_inventory\\inventorydata.h",
+            "e:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
+            "e:\\ue_5.0\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
+            "e:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\datatable.generated.h",
+            "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\gbui_inventory\\inventorydata.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

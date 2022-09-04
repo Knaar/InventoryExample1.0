@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GBUI_Inventory",
+			"Path": "E:\\Unreal_5_Projects\\GBUI_Inventory\\Source\\GBUI_Inventory.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GBUI_InventoryEditor",
+			"Path": "E:\\Unreal_5_Projects\\GBUI_Inventory\\Source\\GBUI_InventoryEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
