@@ -429,14 +429,14 @@ template<> GBUI_INVENTORY_API UScriptStruct* StaticStruct<FInventorySlotInfo>()
 		{ "ModuleRelativePath", "InventoryData.h" },
 	};
 #endif
-	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_SlotId = { "SlotId", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FInventorySlotInfo, SlotId), METADATA_PARAMS(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_SlotId_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_SlotId_MetaData)) };
+	const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_SlotId = { "SlotId", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FInventorySlotInfo, SlotId), METADATA_PARAMS(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_SlotId_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_SlotId_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count_MetaData[] = {
 		{ "Category", "InventorySlotInfo" },
 		{ "ModuleRelativePath", "InventoryData.h" },
 	};
 #endif
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count = { "Count", nullptr, (EPropertyFlags)0x0010000000010015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FInventorySlotInfo, Count), METADATA_PARAMS(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count_MetaData)) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count = { "Count", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FInventorySlotInfo, Count), METADATA_PARAMS(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_SlotId,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewProp_Count,
@@ -474,9 +474,9 @@ template<> GBUI_INVENTORY_API UScriptStruct* StaticStruct<FInventorySlotInfo>()
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::ScriptStructInfo[] = {
 		{ FInventoryItemInfo::StaticStruct, Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewStructOps, TEXT("InventoryItemInfo"), &Z_Registration_Info_UScriptStruct_InventoryItemInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInventoryItemInfo), 999441329U) },
-		{ FInventorySlotInfo::StaticStruct, Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewStructOps, TEXT("InventorySlotInfo"), &Z_Registration_Info_UScriptStruct_InventorySlotInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInventorySlotInfo), 1960115728U) },
+		{ FInventorySlotInfo::StaticStruct, Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewStructOps, TEXT("InventorySlotInfo"), &Z_Registration_Info_UScriptStruct_InventorySlotInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInventorySlotInfo), 161145044U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_406771869(TEXT("/Script/GBUI_Inventory"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_2832488066(TEXT("/Script/GBUI_Inventory"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::EnumInfo));

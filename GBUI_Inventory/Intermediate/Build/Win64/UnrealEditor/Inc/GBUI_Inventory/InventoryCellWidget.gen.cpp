@@ -121,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCellWidget() {}
 		{ "ModuleRelativePath", "InventoryCellWidget.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryCellWidget, Item), Z_Construct_UScriptStruct_FInventorySlotInfo, METADATA_PARAMS(Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_Item_MetaData)) }; // 1960115728
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_Item = { "Item", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryCellWidget, Item), Z_Construct_UScriptStruct_FInventorySlotInfo, METADATA_PARAMS(Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_Item_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_Item_MetaData)) }; // 161145044
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInventoryCellWidget_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_IndexInInventory,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryCellWidget_Statics::NewProp_ParentInventoryWidget,
@@ -166,9 +166,9 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCellWidget() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCellWidget_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UInventoryCellWidget, UInventoryCellWidget::StaticClass, TEXT("UInventoryCellWidget"), &Z_Registration_Info_UClass_UInventoryCellWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryCellWidget), 384901347U) },
+		{ Z_Construct_UClass_UInventoryCellWidget, UInventoryCellWidget::StaticClass, TEXT("UInventoryCellWidget"), &Z_Registration_Info_UClass_UInventoryCellWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryCellWidget), 574364026U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCellWidget_h_4077633905(TEXT("/Script/GBUI_Inventory"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCellWidget_h_2700066829(TEXT("/Script/GBUI_Inventory"),
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCellWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCellWidget_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

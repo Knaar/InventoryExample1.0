@@ -81,9 +81,9 @@ USTRUCT(BlueprintType)
 struct FInventorySlotInfo:public FTableRowBase
 {
 	GENERATED_BODY()
-	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	FName SlotId = NAME_None;
 
-	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	int32 Count;
 };

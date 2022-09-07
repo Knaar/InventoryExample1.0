@@ -48,7 +48,7 @@ protected:
 	UInventoryCellWidget* GoldCell;
 
 	//Массив всех ячеек, которые мы создали
-	UPROPERTY()
+	UPROPERTY(BlueprintReadWrite)
 	TArray<UInventoryCellWidget*>MassiveOfCellWidgets;
 
 	//Создаёт ячейку UInventoryCellWidget, возващает её и вызывает InitCell для добавления

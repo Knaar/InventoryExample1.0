@@ -45,6 +45,6 @@ private:
 
 	//TMap.В слоте может лежать предмет, а может не лежать. В качестве первого параметра идёт IndexInInventory
 public:	
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	TMap<int32,FInventorySlotInfo> Items;
 };

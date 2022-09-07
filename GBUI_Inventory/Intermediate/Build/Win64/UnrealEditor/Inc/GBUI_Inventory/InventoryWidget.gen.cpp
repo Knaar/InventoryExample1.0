@@ -121,13 +121,14 @@ void EmptyLinkFunctionForGeneratedCodeInventoryWidget() {}
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets_Inner = { "MassiveOfCellWidgets", nullptr, (EPropertyFlags)0x0000000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UInventoryCellWidget_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets_MetaData[] = {
+		{ "Category", "InventoryWidget" },
 		{ "Comment", "//\xd0\x9c\xd0\xb0\xd1\x81\xd1\x81\xd0\xb8\xd0\xb2 \xd0\xb2\xd1\x81\xd0\xb5\xd1\x85 \xd1\x8f\xd1\x87\xd0\xb5\xd0\xb5\xd0\xba, \xd0\xba\xd0\xbe\xd1\x82\xd0\xbe\xd1\x80\xd1\x8b\xd0\xb5 \xd0\xbc\xd1\x8b \xd1\x81\xd0\xbe\xd0\xb7\xd0\xb4\xd0\xb0\xd0\xbb\xd0\xb8\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "InventoryWidget.h" },
 		{ "ToolTip", "\xd0\x9c\xd0\xb0\xd1\x81\xd1\x81\xd0\xb8\xd0\xb2 \xd0\xb2\xd1\x81\xd0\xb5\xd1\x85 \xd1\x8f\xd1\x87\xd0\xb5\xd0\xb5\xd0\xba, \xd0\xba\xd0\xbe\xd1\x82\xd0\xbe\xd1\x80\xd1\x8b\xd0\xb5 \xd0\xbc\xd1\x8b \xd1\x81\xd0\xbe\xd0\xb7\xd0\xb4\xd0\xb0\xd0\xbb\xd0\xb8" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets = { "MassiveOfCellWidgets", nullptr, (EPropertyFlags)0x0020088000000008, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryWidget, MassiveOfCellWidgets), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets = { "MassiveOfCellWidgets", nullptr, (EPropertyFlags)0x002008800000000c, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UInventoryWidget, MassiveOfCellWidgets), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UInventoryWidget_Statics::NewProp_MassiveOfCellWidgets_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInventoryWidget_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryWidget_Statics::NewProp_ParentInventory,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInventoryWidget_Statics::NewProp_ItemsInRow,
@@ -173,9 +174,9 @@ void EmptyLinkFunctionForGeneratedCodeInventoryWidget() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryWidget_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UInventoryWidget, UInventoryWidget::StaticClass, TEXT("UInventoryWidget"), &Z_Registration_Info_UClass_UInventoryWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryWidget), 1440868357U) },
+		{ Z_Construct_UClass_UInventoryWidget, UInventoryWidget::StaticClass, TEXT("UInventoryWidget"), &Z_Registration_Info_UClass_UInventoryWidget, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInventoryWidget), 2920896162U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryWidget_h_4283276454(TEXT("/Script/GBUI_Inventory"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryWidget_h_2731555167(TEXT("/Script/GBUI_Inventory"),
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryWidget_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryWidget_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

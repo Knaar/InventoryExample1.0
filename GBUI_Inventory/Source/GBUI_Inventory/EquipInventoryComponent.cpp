@@ -20,10 +20,12 @@ int32 UEquipInventoryComponent::GetMaxItemAmount(int32 SlotIndex, const FInvento
 	EEquipSlot* EquipSlotPtr=EquipSlotsMap.Find(SlotIndex);
 	/*Смотрим,чтобы слот для предмета нашелся, чтобы тип предмета был Equip
 	 *И слот предмета совпал с тем, в который он должен быть помещён*/
+	
 	if (EquipSlotPtr && InItem.Type==EItemType::It_Equip&& *EquipSlotPtr==InItem.EquipSlot)
 	{
 		return 1;
 	}
+	
 	return 0;
 }
 
@@ -55,7 +57,7 @@ void UEquipInventoryComponent::SetItem(int32 SlotIndex, const FInventorySlotInfo
 void UEquipInventoryComponent::ClearItem(int32 SlotIndex)
 {
 	auto* InventoryOwner=GetOwner();
-	if(!InventoryOwner->GetClass()->ImplementsInterface(UEquipIntarface::StaticClass()))
+	if(!InventoryOwner->Implements<UEquipIntarface>())
 	{
 		Super::ClearItem(SlotIndex);
 		return;

@@ -60,13 +60,17 @@ UStaticMeshComponent* AInventoryCharecter::GetEquipComponent(EEquipSlot EquipSlo
 	switch (EquipSlot)
 	{
 	case EEquipSlot::Es_Head: Tag = "Head"; break;
-	case EEquipSlot::Es_Body: Tag = "Body"; break;
 	case EEquipSlot::Es_LeftArm: Tag = "LeftArm"; break;
+	case EEquipSlot::Es_RightArm: Tag= "RightArm"; break;
+	case EEquipSlot::Es_Body: Tag = "Body"; break;
+	case EEquipSlot::Es_LeftLeg: Tag= "LeftLeg"; break;
+	case EEquipSlot::Es_RightLeg: Tag= "RightLeg"; break;
+	
 	default: return nullptr;
 	}
 	TArray<UActorComponent*> Found=GetComponentsByTag(UStaticMeshComponent::StaticClass(),Tag);
 
-	return Found.Num()>0?Cast<UStaticMeshComponent>(Found[0]):nullptr;
+	return Found.Num()>0?StaticCast<UStaticMeshComponent*>(Found[0]):nullptr;
 }
 
 

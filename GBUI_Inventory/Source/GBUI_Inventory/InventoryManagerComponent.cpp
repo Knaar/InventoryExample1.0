@@ -24,15 +24,6 @@ void UInventoryManagerComponent::Init(UInventoryComponent* InInventoryComponent)
 		InventoryWidget->Init(FMath::Max(MinInventorySize,LocalInventoryComponent->GetItemsNum()));
 		InventoryWidget->OnItemDrop.AddUObject(this, &ThisClass::OnItemDropFunc);
 		
-/*
-		for (const auto& [SlotIndex,SlotInfo]:LocalInventoryComponent->GetItems())
-		{
-			if (auto*Data=GetItemData(SlotInfo.SlotId))
-			{
-				InventoryWidget->AddItem(SlotInfo,*Data,SlotIndex);
-			}
-		}
-*/
 		
 		for(const auto& Item:LocalInventoryComponent->GetItems())
 		{
@@ -63,19 +54,6 @@ const FInventoryItemInfo* UInventoryManagerComponent::GetItemData(const FName& I
 
 void UInventoryManagerComponent::OnItemDropFunc(UInventoryCellWidget* From, UInventoryCellWidget* To)
 {
-	/*
-	FInventorySlotInfo FromItem = From->GetItem();
-	FInventorySlotInfo ToItem=To->GetItem();
-
-	From->Clear();
-	To->Clear();
-
-	To->AddItem(FromItem,*GetItemData(FromItem.SlotId));
-	if(!ToItem.SlotId.IsNone())
-	{
-		From->AddItem(ToItem,*GetItemData(ToItem.SlotId));
-	}
-	*/
 	if (From == nullptr || To == nullptr)
 	{
 		return;
@@ -112,7 +90,7 @@ void UInventoryManagerComponent::OnItemDropFunc(UInventoryCellWidget* From, UInv
 	//Если вместимость по предметам ограничена
 	if (ToItemAmount > 0)
 	{
-		NewToItem.Count = FMath::Max(ToItemAmount,FromItem.Count);
+		NewToItem.Count = FMath::Min(ToItemAmount,FromItem.Count);
 		if (FromItem.Count <= NewToItem.Count)
 		{
 			NewFromItem.SlotId = NewToItem.SlotId;
@@ -131,8 +109,11 @@ void UInventoryManagerComponent::OnItemDropFunc(UInventoryCellWidget* From, UInv
 	}
 	//Чистим кончную ячейку и добавляем в неё
 	To->Clear();
-	To->AddItem(NewToItem, *NewToInfo);
-
+	if(NewToInfo)
+	{
+		To->AddItem(NewToItem, *NewToInfo);
+	}
+	
 	FromInventory->SetItem(From->IndexInInventory, NewFromItem);
 	ToInventory->SetItem(To->IndexInInventory,NewToItem);
 	
