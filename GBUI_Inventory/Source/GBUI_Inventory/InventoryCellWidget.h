@@ -3,12 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "InventoryComponent.h"
 #include "InventoryData.h"
 #include "Blueprint/UserWidget.h"
 #include "InventoryCellWidget.generated.h"
 
 class UImage;
 class UTextBlock;
+class UInventoryWidget;
 
 
 UCLASS(Abstract)
@@ -25,11 +27,15 @@ public:
 	FORCEINLINE const FInventorySlotInfo& GetItem()const{return Item;}
 
 	//Индекс ячейки в InventoryWidget. Он Хранится  в Тмар
+	UPROPERTY(EditAnywhere)
 	int32 IndexInInventory =INDEX_NONE;
 
 	FOnItemDrop OnItemDrop;
 
-	
+	UPROPERTY()
+	UInventoryWidget* ParentInventoryWidget;
+
+	UInventoryComponent* GetParentInventory() const;
 protected:
 
 	virtual FReply NativeOnMouseButtonDown( const FGeometry& InGeometry, const FPointerEvent& InMouseEvent ) override;

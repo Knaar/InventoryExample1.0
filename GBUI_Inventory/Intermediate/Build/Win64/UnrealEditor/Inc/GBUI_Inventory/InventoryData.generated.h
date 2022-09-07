@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GBUI_INVENTORY_InventoryData_generated_h
 
-#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_34_GENERATED_BODY \
+#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_45_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInventoryItemInfo_Statics; \
 	GBUI_INVENTORY_API static class UScriptStruct* StaticStruct(); \
 	typedef FTableRowBase Super;
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> GBUI_INVENTORY_API UScriptStruct* StaticStruct<struct FInventoryItemInfo>();
 
-#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_69_GENERATED_BODY \
+#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_83_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInventorySlotInfo_Statics; \
 	GBUI_INVENTORY_API static class UScriptStruct* StaticStruct(); \
 	typedef FTableRowBase Super;
@@ -49,5 +49,16 @@ template<> GBUI_INVENTORY_API UEnum* StaticEnum<EItemType>();
 
 enum class EItemRarity : uint8;
 template<> GBUI_INVENTORY_API UEnum* StaticEnum<EItemRarity>();
+
+#define FOREACH_ENUM_EEQUIPSLOT(op) \
+	op(EEquipSlot::Es_Head) \
+	op(EEquipSlot::Es_LeftArm) \
+	op(EEquipSlot::Es_RightArm) \
+	op(EEquipSlot::Es_Body) \
+	op(EEquipSlot::Es_LeftLeg) \
+	op(EEquipSlot::Es_RightLeg) 
+
+enum class EEquipSlot : uint8;
+template<> GBUI_INVENTORY_API UEnum* StaticEnum<EEquipSlot>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -3,14 +3,17 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "EquipIntarface.h"
+//#include "EquipInventoryComponent.h"
 #include "InventoryWidget.h"
 #include "GameFramework/Character.h"
 #include "InventoryCharecter.generated.h"
 
 class UInventoryComponent;
 class UInventoryManagerComponent;
+class UEquipInventoryComponent;
 UCLASS()
-class GBUI_INVENTORY_API AInventoryCharecter : public ACharacter
+class GBUI_INVENTORY_API AInventoryCharecter : public ACharacter, public IEquipIntarface
 {
 	GENERATED_BODY()
 
@@ -25,4 +28,16 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly)
 	UInventoryManagerComponent* InventoryManager;
+
+	UPROPERTY(EditDefaultsOnly)
+	UEquipInventoryComponent* EquipInventory;
+
+	virtual void EquipItem(EEquipSlot Slot,FName ItemId) override;
+
+	virtual void UnequipItem(EEquipSlot Slot, FName ItemId) override;
+
+	UStaticMeshComponent* GetEquipComponent(EEquipSlot EquipSlot);
+
+	UPROPERTY(BlueprintReadOnly)
+	int32 Damage=0;
 };

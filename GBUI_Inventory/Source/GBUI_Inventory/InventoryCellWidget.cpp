@@ -2,9 +2,9 @@
 
 
 #include "InventoryCellWidget.h"
-
 #include "Blueprint/WidgetBlueprintLibrary.h"
 #include "Components/Image.h"
+#include "InventoryWidget.h"
 #include "Components/TextBlock.h"
 
 bool UInventoryCellWidget::AddItem(const FInventorySlotInfo& InSlot, const FInventoryItemInfo& Info)
@@ -48,6 +48,11 @@ void UInventoryCellWidget::Clear()
 
 	bHasItem=false;
 	Item={};
+}
+
+UInventoryComponent* UInventoryCellWidget::GetParentInventory() const
+{
+	return ParentInventoryWidget ? ParentInventoryWidget -> ParentInventory : nullptr;
 }
 
 FReply UInventoryCellWidget::NativeOnMouseButtonDown(const FGeometry& InGeometry, const FPointerEvent& InMouseEvent)

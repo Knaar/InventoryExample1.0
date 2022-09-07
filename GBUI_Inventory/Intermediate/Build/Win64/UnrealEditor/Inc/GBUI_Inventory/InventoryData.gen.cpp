@@ -12,6 +12,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryData() {}
 	GBUI_INVENTORY_API UEnum* Z_Construct_UEnum_GBUI_Inventory_EItemType();
 	UPackage* Z_Construct_UPackage__Script_GBUI_Inventory();
 	GBUI_INVENTORY_API UEnum* Z_Construct_UEnum_GBUI_Inventory_EItemRarity();
+	GBUI_INVENTORY_API UEnum* Z_Construct_UEnum_GBUI_Inventory_EEquipSlot();
 	GBUI_INVENTORY_API UScriptStruct* Z_Construct_UScriptStruct_FInventoryItemInfo();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FTableRowBase();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
@@ -128,6 +129,66 @@ void EmptyLinkFunctionForGeneratedCodeInventoryData() {}
 		}
 		return Z_Registration_Info_UEnum_EItemRarity.InnerSingleton;
 	}
+	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EEquipSlot;
+	static UEnum* EEquipSlot_StaticEnum()
+	{
+		if (!Z_Registration_Info_UEnum_EEquipSlot.OuterSingleton)
+		{
+			Z_Registration_Info_UEnum_EEquipSlot.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_GBUI_Inventory_EEquipSlot, Z_Construct_UPackage__Script_GBUI_Inventory(), TEXT("EEquipSlot"));
+		}
+		return Z_Registration_Info_UEnum_EEquipSlot.OuterSingleton;
+	}
+	template<> GBUI_INVENTORY_API UEnum* StaticEnum<EEquipSlot>()
+	{
+		return EEquipSlot_StaticEnum();
+	}
+	struct Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics
+	{
+		static const UECodeGen_Private::FEnumeratorParam Enumerators[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FEnumParams EnumParams;
+	};
+	const UECodeGen_Private::FEnumeratorParam Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::Enumerators[] = {
+		{ "EEquipSlot::Es_Head", (int64)EEquipSlot::Es_Head },
+		{ "EEquipSlot::Es_LeftArm", (int64)EEquipSlot::Es_LeftArm },
+		{ "EEquipSlot::Es_RightArm", (int64)EEquipSlot::Es_RightArm },
+		{ "EEquipSlot::Es_Body", (int64)EEquipSlot::Es_Body },
+		{ "EEquipSlot::Es_LeftLeg", (int64)EEquipSlot::Es_LeftLeg },
+		{ "EEquipSlot::Es_RightLeg", (int64)EEquipSlot::Es_RightLeg },
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::Enum_MetaDataParams[] = {
+		{ "Es_Body.Name", "EEquipSlot::Es_Body" },
+		{ "Es_Head.Name", "EEquipSlot::Es_Head" },
+		{ "Es_LeftArm.Name", "EEquipSlot::Es_LeftArm" },
+		{ "Es_LeftLeg.Name", "EEquipSlot::Es_LeftLeg" },
+		{ "Es_RightArm.Name", "EEquipSlot::Es_RightArm" },
+		{ "Es_RightLeg.Name", "EEquipSlot::Es_RightLeg" },
+		{ "ModuleRelativePath", "InventoryData.h" },
+	};
+#endif
+	const UECodeGen_Private::FEnumParams Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::EnumParams = {
+		(UObject*(*)())Z_Construct_UPackage__Script_GBUI_Inventory,
+		nullptr,
+		"EEquipSlot",
+		"EEquipSlot",
+		Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::Enumerators,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::Enumerators),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EEnumFlags::None,
+		(uint8)UEnum::ECppForm::EnumClass,
+		METADATA_PARAMS(Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::Enum_MetaDataParams))
+	};
+	UEnum* Z_Construct_UEnum_GBUI_Inventory_EEquipSlot()
+	{
+		if (!Z_Registration_Info_UEnum_EEquipSlot.InnerSingleton)
+		{
+			UECodeGen_Private::ConstructUEnum(Z_Registration_Info_UEnum_EEquipSlot.InnerSingleton, Z_Construct_UEnum_GBUI_Inventory_EEquipSlot_Statics::EnumParams);
+		}
+		return Z_Registration_Info_UEnum_EEquipSlot.InnerSingleton;
+	}
 
 static_assert(std::is_polymorphic<FInventoryItemInfo>() == std::is_polymorphic<FTableRowBase>(), "USTRUCT FInventoryItemInfo cannot be polymorphic unless super FTableRowBase is polymorphic");
 
@@ -168,6 +229,11 @@ template<> GBUI_INVENTORY_API UScriptStruct* StaticStruct<FInventoryItemInfo>()
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Rare_MetaData[];
 #endif
 		static const UECodeGen_Private::FEnumPropertyParams NewProp_Rare;
+		static const UECodeGen_Private::FBytePropertyParams NewProp_EquipSlot_Underlying;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_EquipSlot_MetaData[];
+#endif
+		static const UECodeGen_Private::FEnumPropertyParams NewProp_EquipSlot;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_Icon_MetaData[];
 #endif
@@ -233,6 +299,14 @@ template<> GBUI_INVENTORY_API UScriptStruct* StaticStruct<FInventoryItemInfo>()
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Rare = { "Rare", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FInventoryItemInfo, Rare), Z_Construct_UEnum_GBUI_Inventory_EItemRarity, METADATA_PARAMS(Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Rare_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Rare_MetaData)) }; // 439065975
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_EquipSlot_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_EquipSlot_MetaData[] = {
+		{ "Category", "Type" },
+		{ "ModuleRelativePath", "InventoryData.h" },
+	};
+#endif
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_EquipSlot = { "EquipSlot", nullptr, (EPropertyFlags)0x0010000000010001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FInventoryItemInfo, EquipSlot), Z_Construct_UEnum_GBUI_Inventory_EEquipSlot, METADATA_PARAMS(Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_EquipSlot_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_EquipSlot_MetaData)) }; // 693636913
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Icon_MetaData[] = {
 		{ "Category", "Visual" },
@@ -275,6 +349,8 @@ template<> GBUI_INVENTORY_API UScriptStruct* StaticStruct<FInventoryItemInfo>()
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Type,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Rare_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Rare,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_EquipSlot_Underlying,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_EquipSlot,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Icon,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Mesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewProp_Damage,
@@ -394,12 +470,13 @@ template<> GBUI_INVENTORY_API UScriptStruct* StaticStruct<FInventorySlotInfo>()
 	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::EnumInfo[] = {
 		{ EItemType_StaticEnum, TEXT("EItemType"), &Z_Registration_Info_UEnum_EItemType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1243219285U) },
 		{ EItemRarity_StaticEnum, TEXT("EItemRarity"), &Z_Registration_Info_UEnum_EItemRarity, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 439065975U) },
+		{ EEquipSlot_StaticEnum, TEXT("EEquipSlot"), &Z_Registration_Info_UEnum_EEquipSlot, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 693636913U) },
 	};
 	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::ScriptStructInfo[] = {
-		{ FInventoryItemInfo::StaticStruct, Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewStructOps, TEXT("InventoryItemInfo"), &Z_Registration_Info_UScriptStruct_InventoryItemInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInventoryItemInfo), 4255120993U) },
+		{ FInventoryItemInfo::StaticStruct, Z_Construct_UScriptStruct_FInventoryItemInfo_Statics::NewStructOps, TEXT("InventoryItemInfo"), &Z_Registration_Info_UScriptStruct_InventoryItemInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInventoryItemInfo), 999441329U) },
 		{ FInventorySlotInfo::StaticStruct, Z_Construct_UScriptStruct_FInventorySlotInfo_Statics::NewStructOps, TEXT("InventorySlotInfo"), &Z_Registration_Info_UScriptStruct_InventorySlotInfo, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInventorySlotInfo), 1960115728U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_3136491565(TEXT("/Script/GBUI_Inventory"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_406771869(TEXT("/Script/GBUI_Inventory"),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::ScriptStructInfo),
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryData_h_Statics::EnumInfo));

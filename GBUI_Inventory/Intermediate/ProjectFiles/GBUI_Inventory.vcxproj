@@ -27,7 +27,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{847A8645-BB53-3D50-841E-7740CED6A098}</ProjectGuid>
+    <ProjectGuid>{35E95B71-757D-3F7F-9255-CFE4C8E082E0}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>GBUI_Inventory</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -840,6 +840,13 @@
       <ForcedIncludeFiles>$(SolutionDir)Plugins\Developer\RiderLink\Intermediate\Build\Win64\UnrealEditor\Development\RiderShaderInfo\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
     <ClInclude Include="..\..\Plugins\Developer\RiderLink\Source\RiderShaderInfo\RiderShaderInfo.h" />
+    <ClCompile Include="..\..\Source\GBUI_Inventory\EquipIntarface.cpp" />
+    <ClCompile Include="..\..\Source\GBUI_Inventory\EquipInventoryComponent.cpp">
+      <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\UE_5.0\Engine\Source\ThirdParty\mimalloc\include;E:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source\Win64;E:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(SolutionDir)Intermediate\Build\Win64\GBUI_InventoryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h;$(SolutionDir)Intermediate\Build\Win64\UnrealEditor\Development\GBUI_Inventory\Definitions.GBUI_Inventory.h</ForcedIncludeFiles>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GBUI_Inventory\EquipIntarface.h" />
+    <ClInclude Include="..\..\Source\GBUI_Inventory\EquipInventoryComponent.h" />
     <None Include="..\..\Source\GBUI_Inventory\GBUI_Inventory.Build.cs" />
     <ClCompile Include="..\..\Source\GBUI_Inventory\GBUI_Inventory.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);E:\UE_5.0\Engine\Source\ThirdParty\mimalloc\include;E:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source\Win64;E:\UE_5.0\Engine\Source\ThirdParty\LibTiff\Source;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;E:\UE_5.0\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;</AdditionalIncludeDirectories>

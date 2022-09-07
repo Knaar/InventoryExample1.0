@@ -1,10 +1,10 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\gbui_inventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
+        "Source": "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\gbui_inventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "e:\\unreal_5_projects\\gbui_inventory\\intermediate\\build\\win64\\gbui_inventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\gbui_inventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.h",
             "e:\\ue_5.0\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "e:\\ue_5.0\\engine\\source\\runtime\\core\\public\\containers\\containersfwd.h",
             "e:\\ue_5.0\\engine\\source\\runtime\\core\\public\\hal\\platform.h",

@@ -2,9 +2,19 @@
 
 
 #include "InventoryWidget.h"
-
+#include "InventoryCellWidget.h"
 #include "Components/UniformGridPanel.h"
 
+
+void UInventoryWidget::NativeConstruct()
+{
+
+	Super::NativeConstruct();//Вызывает блюпринтовый экземпляр функции
+	for (auto* Cell :MassiveOfCellWidgets)
+	{
+		InitCell(Cell);
+	}
+}
 
 void UInventoryWidget::Init(int32 ItemsCount)
 {
@@ -13,7 +23,7 @@ void UInventoryWidget::Init(int32 ItemsCount)
 		CellsPanel->ClearChildren();
 		for (int32 i=0; i<ItemsCount; i++)
 		{
-			if (auto*Cell=CreateCellWidget())
+			if (auto* Cell=CreateCellWidget())
 			{
 				Cell->IndexInInventory=i;
 				CellsPanel->AddChildToUniformGrid(Cell, i/ItemsInRow, i%ItemsInRow);
@@ -69,10 +79,21 @@ UInventoryCellWidget* UInventoryWidget::CreateCellWidget()
 	{
 		auto* Cell=CreateWidget<UInventoryCellWidget>(this,CellWidgetClass);
 		MassiveOfCellWidgets.Add(Cell);
-		Cell->OnItemDrop.AddUObject(this,&ThisClass::OnItemDropFunc);
+		
+		InitCell(Cell);
+		
 		return Cell;
 	}
 	return nullptr;
+}
+
+void UInventoryWidget::InitCell(UInventoryCellWidget* NewCell)
+{
+	if (NewCell)
+	{
+		NewCell->OnItemDrop.AddUObject(this, &ThisClass::OnItemDropFunc);
+		NewCell->ParentInventoryWidget = this;
+	}
 }
 
 void UInventoryWidget::OnItemDropFunc(UInventoryCellWidget* From, UInventoryCellWidget* To)

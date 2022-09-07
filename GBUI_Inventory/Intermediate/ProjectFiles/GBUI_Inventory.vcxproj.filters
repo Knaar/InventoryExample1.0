@@ -1439,6 +1439,12 @@
     <Filter Include="Source\GBUI_Inventory">
       <UniqueIdentifier>{7A7B21CD-E8A7-359A-852E-1C47B304C76A}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GBUI_Inventory\EquipInventoryComponent.cpp">
+      <Filter>Source\GBUI_Inventory</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GBUI_Inventory\EquipInventoryComponent.h">
+      <Filter>Source\GBUI_Inventory</Filter>
+    </ClInclude>
     <None Include="..\..\Source\GBUI_Inventory\GBUI_Inventory.Build.cs">
       <Filter>Source\GBUI_Inventory</Filter>
     </None>
@@ -1464,12 +1470,6 @@
       <Filter>Source\GBUI_Inventory</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GBUI_Inventory\InventoryCellWidget.h">
-      <Filter>Source\GBUI_Inventory</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\GBUI_Inventory\InventoryCellWodget.cpp">
-      <Filter>Source\GBUI_Inventory</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GBUI_Inventory\InventoryCellWodget.h">
       <Filter>Source\GBUI_Inventory</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GBUI_Inventory\InventoryCharecter.cpp">

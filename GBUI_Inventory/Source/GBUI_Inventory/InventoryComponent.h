@@ -14,7 +14,7 @@ class GBUI_INVENTORY_API UInventoryComponent : public UActorComponent
 	GENERATED_BODY()
 
 public:
-	virtual void BeginPlay() override;
+	
 	//Ищет предмет в ТМар по передаваемому индексу и возвращает его
 	FORCEINLINE const FInventorySlotInfo* GetItem(int32 SlotIndex){return Items.Find(SlotIndex);}
 
@@ -30,6 +30,10 @@ public:
 	
 	//Возвращает количество слотов с предметами
 	FORCEINLINE int32 GetItemsNum() const { return Items.Num(); }
+
+	/*Нужен для того, чтобы вернуть, сколько предметом мы туда можем поместить(0-0,1-1,-1-бесконечно)*/
+	virtual int32 GetMaxItemAmount(int32 SlotIndex,const FInventoryItemInfo& InItem);
+	
 
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	UDataTable* SlotsDataTable;

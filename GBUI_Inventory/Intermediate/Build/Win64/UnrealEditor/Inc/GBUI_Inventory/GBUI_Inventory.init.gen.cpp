@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeGBUI_Inventory_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x0E9DBEC7,
-				0x1F5C78A2,
+				0xD9955167,
+				0x8E2220A6,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_GBUI_Inventory.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_GBUI_Inventory.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GBUI_Inventory(Z_Construct_UPackage__Script_GBUI_Inventory, TEXT("/Script/GBUI_Inventory"), Z_Registration_Info_UPackage__Script_GBUI_Inventory, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0E9DBEC7, 0x1F5C78A2));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_GBUI_Inventory(Z_Construct_UPackage__Script_GBUI_Inventory, TEXT("/Script/GBUI_Inventory"), Z_Registration_Info_UPackage__Script_GBUI_Inventory, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xD9955167, 0x8E2220A6));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

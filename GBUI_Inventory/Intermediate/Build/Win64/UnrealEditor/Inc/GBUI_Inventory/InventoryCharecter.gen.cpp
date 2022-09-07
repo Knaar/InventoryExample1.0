@@ -15,6 +15,8 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 	UPackage* Z_Construct_UPackage__Script_GBUI_Inventory();
 	GBUI_INVENTORY_API UClass* Z_Construct_UClass_UInventoryComponent_NoRegister();
 	GBUI_INVENTORY_API UClass* Z_Construct_UClass_UInventoryManagerComponent_NoRegister();
+	GBUI_INVENTORY_API UClass* Z_Construct_UClass_UEquipInventoryComponent_NoRegister();
+	GBUI_INVENTORY_API UClass* Z_Construct_UClass_UEquipIntarface_NoRegister();
 // End Cross Module References
 	void AInventoryCharecter::StaticRegisterNativesAInventoryCharecter()
 	{
@@ -38,7 +40,16 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_InventoryManager_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_InventoryManager;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_EquipInventory_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_EquipInventory;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Damage_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_Damage;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -69,10 +80,30 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager = { "InventoryManager", nullptr, (EPropertyFlags)0x0020080000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, InventoryManager), Z_Construct_UClass_UInventoryManagerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_EquipInventory_MetaData[] = {
+		{ "Category", "InventoryCharecter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "InventoryCharecter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_EquipInventory = { "EquipInventory", nullptr, (EPropertyFlags)0x0020080000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, EquipInventory), Z_Construct_UClass_UEquipInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_EquipInventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_EquipInventory_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage_MetaData[] = {
+		{ "Category", "InventoryCharecter" },
+		{ "ModuleRelativePath", "InventoryCharecter.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, Damage), METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInventoryCharecter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_EquipInventory,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage,
 	};
+		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AInventoryCharecter_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UEquipIntarface_NoRegister, (int32)VTABLE_OFFSET(AInventoryCharecter, IEquipIntarface), false },  // 426137823
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AInventoryCharecter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AInventoryCharecter>::IsAbstract,
 	};
@@ -83,11 +114,11 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AInventoryCharecter_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::Class_MetaDataParams))
 	};
@@ -109,9 +140,9 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AInventoryCharecter, AInventoryCharecter::StaticClass, TEXT("AInventoryCharecter"), &Z_Registration_Info_UClass_AInventoryCharecter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInventoryCharecter), 2318006538U) },
+		{ Z_Construct_UClass_AInventoryCharecter, AInventoryCharecter::StaticClass, TEXT("AInventoryCharecter"), &Z_Registration_Info_UClass_AInventoryCharecter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInventoryCharecter), 531659447U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_3053945480(TEXT("/Script/GBUI_Inventory"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_1412579392(TEXT("/Script/GBUI_Inventory"),
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

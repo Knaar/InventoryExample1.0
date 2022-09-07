@@ -1,0 +1,24 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\source\\gbui_inventory\\equipinventorycomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\gbui_inventoryeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\development\\gbui_inventory\\definitions.gbui_inventory.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\source\\gbui_inventory\\equipinventorycomponent.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\source\\gbui_inventory\\inventorycomponent.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\source\\gbui_inventory\\inventorydata.h",
+            "e:\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
+            "e:\\ue_5.0\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
+            "e:\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\datatable.generated.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\gbui_inventory\\inventorydata.generated.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\gbui_inventory\\inventorycomponent.generated.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\gbui_inventory\\equipinventorycomponent.generated.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\source\\gbui_inventory\\equipintarface.h",
+            "e:\\unrealprojects\\inventoryexample1.0\\gbui_inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\gbui_inventory\\equipintarface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

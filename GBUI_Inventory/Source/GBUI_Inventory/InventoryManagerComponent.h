@@ -11,6 +11,7 @@
 #include "InventoryManagerComponent.generated.h"
 
 class UInventoryComponent;
+class UInventoryWidget;
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class GBUI_INVENTORY_API UInventoryManagerComponent : public UActorComponent
 {
@@ -22,6 +23,10 @@ public:
 
 	//Он как раз создаёт экземпляр Инвентори компонент
 	void Init(UInventoryComponent* InInventoryComponent);
+
+	/*Тоже инициализация перемещения но для ячеек персонажа.
+	 *Создаёт виджет, подписывается на делегат дропа и добавляет во вьюпорт*/
+	void InitEquip(UInventoryComponent* InInventoryComponent);
 
 	//Ищет в таблице по ID предмет, и возвращает его (имя?)
 	const FInventoryItemInfo* GetItemData(const FName& InId)const;
@@ -42,5 +47,12 @@ protected:
 	UPROPERTY()
 	UInventoryWidget* InventoryWidget;
 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UInventoryWidget> EquipWidgetClass;
+
+	UPROPERTY()
+	UInventoryWidget* EquipWidget;
+
+	
 	void OnItemDropFunc(UInventoryCellWidget*From, UInventoryCellWidget*To);
 };

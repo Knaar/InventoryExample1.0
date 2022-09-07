@@ -3,26 +3,31 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "InventoryCellWidget.h"
+
 #include "InventoryData.h"
 #include "Blueprint/UserWidget.h"
 #include "InventoryWidget.generated.h"
 
 class UUniformGridPanel;
 class UInventoryCellWidget;
+class UInventoryComponent;
 
 UCLASS(Abstract)
 class GBUI_INVENTORY_API UInventoryWidget : public UUserWidget
 {
 	GENERATED_BODY()
 public:
-
+	virtual void NativeConstruct() override;
+	
 	//Очищает ячейки, Узнаёт, сколько нужно, и создаёт через циклж
 	void Init(int32 ItemsCount);
 
 	bool AddItem(const FInventorySlotInfo& InSlot, const FInventoryItemInfo& Info, int32 SlotIndex);
 
 	FOnItemDrop OnItemDrop;
+
+	UPROPERTY()
+	UInventoryComponent* ParentInventory;
 
 protected:
 
@@ -35,19 +40,22 @@ protected:
 	TSubclassOf<UInventoryCellWidget>CellWidgetClass;
 
 	//Панель для ячеек
-	UPROPERTY(BlueprintReadOnly,meta=(BindWidget))
+	UPROPERTY(BlueprintReadOnly,meta=(BindWidgetOptional))
 	UUniformGridPanel* CellsPanel;
 
 	//Отдельная ячейка для золота
-	UPROPERTY(BlueprintReadOnly,meta=(BindWidget))
+	UPROPERTY(BlueprintReadOnly,meta=(BindWidgetOptional))
 	UInventoryCellWidget* GoldCell;
 
 	//Массив всех ячеек, которые мы создали
 	UPROPERTY()
 	TArray<UInventoryCellWidget*>MassiveOfCellWidgets;
 
-	//Создаёт ячейку UInventoryCellWidget и возващает её
+	//Создаёт ячейку UInventoryCellWidget, возващает её и вызывает InitCell для добавления
 	UInventoryCellWidget* CreateCellWidget();
+
+	//Добавляет статичную ячейку
+	void InitCell(UInventoryCellWidget* NewCell);
 
 	/*Вызывает делегат в UInventoryWidget. Т.е. UInvCellWidget вызывает делегат в UInvWidget ч.з эту ф-ю
 	У нас срабатывает делегат в ячейке, после этого срабатывает делегат в виджете и мы этот делегат ловим в менеджере*/

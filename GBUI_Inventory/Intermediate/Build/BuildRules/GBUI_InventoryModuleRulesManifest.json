@@ -1,14 +1,14 @@
 {
 	"SourceFiles": [
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Source\\GBUI_Inventory\\GBUI_Inventory.Build.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Source\\GBUI_Inventory.Target.cs",
-		"E:\\Unreal_5_Projects\\GBUI_Inventory\\Source\\GBUI_InventoryEditor.Target.cs"
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Source\\GBUI_Inventory\\GBUI_Inventory.Build.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Source\\GBUI_Inventory.Target.cs",
+		"E:\\UnrealProjects\\InventoryExample1.0\\GBUI_Inventory\\Source\\GBUI_InventoryEditor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }
