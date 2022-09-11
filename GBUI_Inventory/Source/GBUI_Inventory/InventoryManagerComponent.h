@@ -24,6 +24,12 @@ public:
 	//Он как раз создаёт экземпляр Инвентори компонент
 	void Init(UInventoryComponent* InInventoryComponent);
 
+	UFUNCTION(BlueprintCallable)
+	void Init2(UInventoryComponent* InInventoryComponent);
+
+	UFUNCTION(BlueprintCallable)
+	void Clear(UInventoryComponent* InInventoryComponent);
+
 	/*Тоже инициализация перемещения но для ячеек персонажа.
 	 *Создаёт виджет, подписывается на делегат дропа и добавляет во вьюпорт*/
 	void InitEquip(UInventoryComponent* InInventoryComponent);
@@ -34,6 +40,9 @@ protected:
 
 	UPROPERTY()
 	UInventoryComponent* LocalInventoryComponent;
+
+	UPROPERTY()
+	UInventoryComponent* LocalInventoryComponent2;
 	
 	UPROPERTY(EditAnywhere)
 	UDataTable* ItemsData;
@@ -46,6 +55,12 @@ protected:
 
 	UPROPERTY()
 	UInventoryWidget* InventoryWidget;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UInventoryWidget> InventoryWidgetClass2;
+
+	UPROPERTY()
+	UInventoryWidget* InventoryWidget2;
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<UInventoryWidget> EquipWidgetClass;

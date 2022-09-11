@@ -37,6 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_LocalInventory;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_LocalInventory2_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_LocalInventory2;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_InventoryManager_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_InventoryManager;
@@ -73,13 +77,21 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory = { "LocalInventory", nullptr, (EPropertyFlags)0x002008000009000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, LocalInventory), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory2_MetaData[] = {
+		{ "Category", "InventoryCharecter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "InventoryCharecter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory2 = { "LocalInventory2", nullptr, (EPropertyFlags)0x002008000009000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, LocalInventory2), Z_Construct_UClass_UInventoryComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory2_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory2_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager_MetaData[] = {
 		{ "Category", "InventoryCharecter" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "InventoryCharecter.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager = { "InventoryManager", nullptr, (EPropertyFlags)0x0020080000090009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, InventoryManager), Z_Construct_UClass_UInventoryManagerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager = { "InventoryManager", nullptr, (EPropertyFlags)0x002008000009000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, InventoryManager), Z_Construct_UClass_UInventoryManagerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_EquipInventory_MetaData[] = {
 		{ "Category", "InventoryCharecter" },
@@ -97,6 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0020080000000014, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AInventoryCharecter, Damage), METADATA_PARAMS(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AInventoryCharecter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_LocalInventory2,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_InventoryManager,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_EquipInventory,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AInventoryCharecter_Statics::NewProp_Damage,
@@ -140,9 +153,9 @@ void EmptyLinkFunctionForGeneratedCodeInventoryCharecter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AInventoryCharecter, AInventoryCharecter::StaticClass, TEXT("AInventoryCharecter"), &Z_Registration_Info_UClass_AInventoryCharecter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInventoryCharecter), 531659447U) },
+		{ Z_Construct_UClass_AInventoryCharecter, AInventoryCharecter::StaticClass, TEXT("AInventoryCharecter"), &Z_Registration_Info_UClass_AInventoryCharecter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AInventoryCharecter), 833305088U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_1412579392(TEXT("/Script/GBUI_Inventory"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_1063276182(TEXT("/Script/GBUI_Inventory"),
 		Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryCharecter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

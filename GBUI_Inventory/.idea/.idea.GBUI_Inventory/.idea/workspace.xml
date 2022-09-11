@@ -6,119 +6,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20a265fc-9b1d-4dcb-80c4-70220d763c8a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Accessories_Robes/ROG_Male/Bracers/Materials/MI_Bracer_Pack2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Accessories_Robes/ROG_Male/Bracers/Meshes/SM_Bracer_Pack2_T7.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Accessories_Robes/ROG_Male/Bracers/Textures/T_Bracer_Pack2_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Accessories_Robes/ROG_Male/Bracers/Textures/T_Bracer_Pack2_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Accessories_Robes/ROG_Male/Bracers/Textures/T_Bracer_Pack2_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Armor_Cloth/CC_Male/Helms/SkeletalMeshes/SK_Helm0_Hunt_T4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Helms/Materials/MI_Helm0_Hunt_T4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Helms/Textures/T_Hunt_Helm_T4_m4_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Helms/Textures/T_Hunt_Helm_T4_m4_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Armor_Cloth/ROG_Male/Helms/Textures/T_Hunt_Helm_T4_m4_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Characters/CC_mlindborg/CC_Male/SKEL_CC_Male.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Characters/CC_mlindborg/CC_Male/SK_CC_Male.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/LODSettings/SK_Pants-Helms_LODSettings.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/MI_Character_Arms.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/MI_Character_Chest.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/MI_Character_Feet.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/MI_Character_Hands.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/MI_Character_Head.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/MI_Character_Legs.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/M_Armor_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Materials/M_Character_DEMO.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Textures/T_Default_D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Textures/T_Default_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Textures/T_Default_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Textures/T_Detail_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/ROG_Modular_Armor/Common/Textures/T_MacroVariation.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/DebugGame/RD/Definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/DebugGame/RiderBlueprint/Definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/DebugGame/RiderGameControl/Definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/DebugGame/RiderLink/Definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/DebugGame/RiderLogging/Definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/UnrealEditor/DebugGame/RiderShaderInfo/Definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/AssetData/DataTableEditorLayout/DT_Items.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-140A7DCA469726A588C519B464390077/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5B7B24B74A36755F79B884B236CB1AEC/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-9747559A46DA44125C5DDC96EEDFA64B/CrashReportClient.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-15.39.31.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.08-14.00.44.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.08-14.08.19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.08-15.04.32.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.10-09.55.09.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-08.55.40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.08-16.57.40.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.08-17.08.05.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.08-17.59.04.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.08-17.59.50.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.08-18.03.35.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.10-12.33.31.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-11.55.06.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-11.55.56.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-11.56.25.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-11.59.29.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-11.59.58.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-12.02.01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-12.02.20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_Chest.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/W_ChestWidget1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6W/R1K8V32GZYI14GQPM4FV1V.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_Chest_Auto1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/W_ChestWidget1_Auto1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6W/R1K8V32GZYI14GQPM4FV1V_Auto1.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6W/R1K8V32GZYI14GQPM4FV1V_Auto2.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-08807E714A0B7E199C878AB98D519C35/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0EC0FBF84E659ACBBD35F39856ADA8A8/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-20392B8F47008D0C7DA03D9D1CD78A9D/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-3CBA33A0494E139A07685CA8F2B4FC46/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-754E64E84A7DF079136A3CA7DBD60713/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-8ED08BF448DE4562660FF2BBAA8C659A/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E91C3031441E6D102911A595FBBC9902/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-EBEEFF984210D85C4B9F699B8ABA48D3/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F68F52FF4B48F132794822A2CB1C7C68/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F68F52FF4B48F132794822A2CB1C7C68_0000/CrashContext.runtime-xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F68F52FF4B48F132794822A2CB1C7C68_0000/CrashReportClient.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F68F52FF4B48F132794822A2CB1C7C68_0000/GBUI_Inventory.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Crashes/UECC-Windows-F68F52FF4B48F132794822A2CB1C7C68_0000/UEMinidump.dmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-11.37.10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-11.40.02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-11.45.08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-12.29.16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-12.46.23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-12.54.15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-12.55.44.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-12.56.43.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-14.38.06.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-14.42.38.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-14.43.10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-14.43.34.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-14.44.04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-14.45.28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.02.57.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.09.03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.09.09.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.09.48.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.10.10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.10.25.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.11.39.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.11.50.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.22.30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.28.02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.29.42.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.39.28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.40.14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.40.57.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.41.26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.41.59.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.47.14.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.48.08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.48.16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.48.30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.50.37.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.51.18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.51.40.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.51.52.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.52.52.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.56.38.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-15.59.13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Saved/WorldPartition/StreamingGeneration-PIE-2022.09.11-16.00.18.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GBUI_Inventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GBUI_Inventory/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-GBUI_Inventory.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UnrealEditor-GBUI_Inventory.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/DT_Items.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/DT_Items.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/W_Equip_Widget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/W_Equip_Widget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/W_InventoryWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/W_InventoryWidget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/W_InventoryWidget1.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GBUI_InventoryEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GBUI_InventoryEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GBUI_InventoryEditor/Development/GBUI_InventoryEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GBUI_InventoryEditor/Development/GBUI_InventoryEditor.uhtmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/GBUI_InventoryEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/GBUI_InventoryEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.dll.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.dll.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.dll.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.dll.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.lib.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.lib.response.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Development/GBUI_Inventory/UnrealEditor-GBUI_Inventory.suppressed.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/GBUI_Inventory.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/GBUI_Inventory.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/GBUI_InventoryCharacter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/GBUI_InventoryCharacter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/InventoryCharecter.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/InventoryCharecter.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/InventoryManagerComponent.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/InventoryManagerComponent.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/InventoryManagerComponent.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/InventoryManagerComponent.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UnrealEditor/Inc/GBUI_Inventory/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0013D41B4F0EE0592541C281E1C6BBDF/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-09082709467CD3666AED8F8DA2D1474A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0E50F6A640A4DD2DE97721BC5799EB73/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-0E86F3EF447B956185F8B1A493E0B83E/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-1F250E664A02B6A5ABC8458E0E40A17B/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-30D141744BBB7951A2341D9642B5FBB6/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-5B9FBB124B906F12F96C979B8D73984A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-6A4088D44137EDFC527A8CAF186800D5/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-6C87A11342EAF5922603E9A4FDBE564A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-81ABE62840E990B09E407DB75AE8F7AA/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-82747F8A41DF3C884ECD9DA6700F138E/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-919EB12D427DAA548CC3F9AF9C5BABC9/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-97DB053B4DD34A021E7266975B4923E6/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-9E859BB44946A9F39E7AA7BE3779B36B/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A1356BDB48A52EF0359274A885FD4066/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A1B0794E44BEBC7F9C258B9A7CC26C38/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A2C36C0D4E1F4ACC7EC9B8A9B036C6BD/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A30B06334E85912433095CB3F9FDDDC2/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-A7E55459494C960E04D1B0A60A9D55A9/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-B2B04230439E7124B378049707002BB6/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-BAE935ED43EEC673CF1B4FA5CE3A2092/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-BCBCAB3346983DA55A5B218F0B2C2F8A/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-BFDFB1F94D1D337F7D1487AB8ECC6894/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-C394035A4131554AC51D62A3D333ED48/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-CC88860B4B0E9E5B88D7EA87964204C5/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D14855D348AFCA556C17CBB9FB791258/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-D5A600A84BB48B9991FF5AA3D71381F8/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E07B8BA5435756E7039672A28EEAD507/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E0E03E5A4F196702DF9F4C83653E7E10/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E35FF5804541C36A964344BC1C05AA8E/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-E8609CAE46F4E211902D9D903A2F7FA3/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F09759E34098119BAE939DA94A43C878/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Windows-F1CCD26048360878E3B2E287C1D66342/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/Editor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/W_Equip_Widget_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/W_Equip_Widget_Auto1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/W_InventoryWidget_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/W_InventoryWidget_Auto1.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-12.35.17.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-12.50.22.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-13.21.07.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-13.38.20.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-13.55.34.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-14.10.32.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-14.12.51.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-14.22.22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.07-14.35.06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.08-14.00.44.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.08-14.08.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.08-15.04.32.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.10-09.55.09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory-backup-2022.09.11-08.55.40.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/GBUI_Inventory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryCharecter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryCharecter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryCharecter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryCharecter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryManagerComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryManagerComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryManagerComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GBUI_Inventory/InventoryManagerComponent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,6 +269,7 @@
       <workItem from="1662537169421" duration="19242000" />
       <workItem from="1662645419951" duration="2201000" />
       <workItem from="1662885787470" duration="1129000" />
+      <workItem from="1662896076607" duration="3896000" />
     </task>
     <servers />
   </component>

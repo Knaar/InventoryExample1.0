@@ -26,7 +26,10 @@ protected:
 	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite)
 	UInventoryComponent* LocalInventory;
 
-	UPROPERTY(EditDefaultsOnly)
+	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite)
+	UInventoryComponent* LocalInventory2;
+	
+	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite)
 	UInventoryManagerComponent* InventoryManager;
 
 	UPROPERTY(EditDefaultsOnly)

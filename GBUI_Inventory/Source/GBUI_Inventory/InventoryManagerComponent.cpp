@@ -36,6 +36,36 @@ void UInventoryManagerComponent::Init(UInventoryComponent* InInventoryComponent)
 	}
 }
 
+void UInventoryManagerComponent::Init2(UInventoryComponent* InInventoryComponent)
+{
+	if(InInventoryComponent&&ItemsData&&InventoryWidgetClass2)
+	{
+		LocalInventoryComponent2=InInventoryComponent;
+		
+		InventoryWidget2=CreateWidget<UInventoryWidget>(GetWorld(),InventoryWidgetClass2);
+		InventoryWidget2->AddToViewport();
+		InventoryWidget2->ParentInventory=InInventoryComponent;
+
+		InventoryWidget2->Init(FMath::Max(MinInventorySize,LocalInventoryComponent2->GetItemsNum()));
+		InventoryWidget2->OnItemDrop.AddUObject(this, &ThisClass::OnItemDropFunc);
+		
+		
+		for(const auto& Item:LocalInventoryComponent2->GetItems())
+		{
+			if(auto*Data=GetItemData(Item.Value.SlotId))
+			{
+				InventoryWidget2->AddItem(Item.Value,*Data,Item.Key);
+			}
+		}
+		
+	}
+}
+
+void UInventoryManagerComponent::Clear(UInventoryComponent* InInventoryComponent)
+{
+	InventoryWidget2->SetVisibility(ESlateVisibility::Hidden);
+}
+
 void UInventoryManagerComponent::InitEquip(UInventoryComponent* InInventoryComponent)
 {
 	if (InInventoryComponent&&EquipWidgetClass)

@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UInventoryComponent;
 #ifdef GBUI_INVENTORY_InventoryManagerComponent_generated_h
 #error "InventoryManagerComponent.generated.h already included, missing '#pragma once' in InventoryManagerComponent.h"
 #endif
 #define GBUI_INVENTORY_InventoryManagerComponent_generated_h
 
 #define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryManagerComponent_h_18_SPARSE_DATA
-#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryManagerComponent_h_18_RPC_WRAPPERS
-#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryManagerComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryManagerComponent_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execClear); \
+	DECLARE_FUNCTION(execInit2);
+
+
+#define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryManagerComponent_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execClear); \
+	DECLARE_FUNCTION(execInit2);
+
+
 #define FID_GBUI_Inventory_Source_GBUI_Inventory_InventoryManagerComponent_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInventoryManagerComponent(); \

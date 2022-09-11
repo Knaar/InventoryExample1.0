@@ -11,6 +11,8 @@
 AInventoryCharecter::AInventoryCharecter()
 {
 	LocalInventory=CreateDefaultSubobject<UInventoryComponent>("LocalInventory");
+	LocalInventory2=CreateDefaultSubobject<UInventoryComponent>("LocalInventory2");
+	
 	EquipInventory=CreateDefaultSubobject<UEquipInventoryComponent>("EquipInventory");
 	InventoryManager=CreateDefaultSubobject<UInventoryManagerComponent>("InventoryManager");
 }
@@ -20,6 +22,8 @@ void AInventoryCharecter::BeginPlay()
 	Super::BeginPlay();
 
 	InventoryManager->Init(LocalInventory);
+	//InventoryManager->Init2(LocalInventory2);
+	
 	InventoryManager->InitEquip(EquipInventory);
 	
 }
